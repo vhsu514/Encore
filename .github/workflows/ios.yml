@@ -1,0 +1,30 @@
+name: iOS
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ios/**'
+      - 'data/seed.json'
+      - '.github/workflows/ios.yml'
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Seed copy matches data/seed.json
+        run: diff data/seed.json ios/Encore/Resources/seed.json
+      - name: Build and test
+        run: |
+          set -o pipefail
+          DEVICE=$(xcrun simctl list devices available | grep -m1 -oE 'iPhone [^(]+\(' | sed 's/ ($//;s/($//;s/ *$//')
+          echo "Simulator: $DEVICE"
+          xcodebuild -version
+          xcodebuild test \
+            -project ios/Encore.xcodeproj \
+            -scheme Encore \
+            -destination "platform=iOS Simulator,name=$DEVICE" \
+            CODE_SIGNING_ALLOWED=NO \
+            2>&1 | grep -E "error:|warning: var|Test Case|Test Suite .* (passed|failed)|Executed|BUILD|TEST|xcodebuild: error|Simulator" | grep -v "^Test Case.*started" | tail -150

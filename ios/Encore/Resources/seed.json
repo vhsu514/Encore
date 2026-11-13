@@ -1,0 +1,132 @@
+{
+  "_note": "Demo data for the Encore concept. All people, numbers and lots are illustrative. The demo story: Maya starts with 7 keys, returns a trench (8 keys), then buys the 2012 pleated skirt in Tuesday's drop (7 keys left). Balances are never stored: they are summed from keyLedger.",
+  "me": "u_maya",
+  "clock": { "start": "2026-11-10T10:02", "store": "Zara Gran Vía", "bin": "Bin 02" },
+  "users": [
+    { "id": "u_maya", "name": "Maya", "handle": "maya.closet", "initial": "M", "city": "Madrid", "tier": "Seam", "points": 310, "leagueRank": 4, "keys": 7, "size": "M", "garmentsBack": 7, "kgDisplaced": 5.9, "lotsFollowed": 12, "since": "2026-09", "followers": 184, "aesthetics": ["denim on denim", "Utility"], "badges": ["first_return", "fit_guru", "lot_follower"], "settings": { "leaderboards": true, "photos": false, "dropReminder": true }, "age16plus": true, "returnQueue": ["g_trench", "g_jeans", "g_shirt"] },
+    { "id": "u_lucia", "name": "Lucía M.", "handle": "lucia.archive", "initial": "L", "city": "Madrid", "tier": "Archive", "points": 412, "leagueRank": 1, "curator": true, "followers": 2418, "garmentsBack": 38, "heartsThisWeek": 212, "looksCount": 9, "fitNotesCount": 31, "aesthetics": ["2010s pleats", "Indie Vanguard", "dad's-belt styling"], "fit": "M · 165 cm" },
+    { "id": "u_jorge", "name": "Jorge R.", "initial": "J", "city": "Madrid", "tier": "Cut", "points": 388, "leagueRank": 2 },
+    { "id": "u_amira", "name": "Amira K.", "initial": "A", "city": "Madrid", "tier": "Seam", "points": 351, "leagueRank": 3 },
+    { "id": "u_tomas", "name": "Tomás V.", "initial": "T", "city": "Madrid", "tier": "Seam", "points": 296, "leagueRank": 5 },
+    { "id": "u_nadia", "name": "Nadia P.", "initial": "N", "city": "Madrid", "tier": "Seam", "points": 214, "leagueRank": 11 }
+  ],
+  "league": {
+    "week": 46, "tier": "Seam", "city": "Madrid",
+    "members": [
+      ["u_lucia", 412], ["u_jorge", 388], ["u_amira", 351], ["u_maya", 310], ["u_tomas", 296],
+      ["Carmen S.", 281], ["Diego L.", 268], ["Inés F.", 254], ["Pablo G.", 239], ["Sofía R.", 226],
+      ["u_nadia", 214], ["Hugo M.", 205], ["Elena C.", 198], ["Marco D.", 190], ["Aitana B.", 183],
+      ["Leo P.", 177], ["Valeria T.", 170], ["Iker Z.", 164], ["Noa H.", 158], ["Bruno A.", 151],
+      ["Clara N.", 145], ["Mateo E.", 139], ["Julia O.", 133], ["Álvaro Q.", 127], ["Irene V.", 121],
+      ["Dani W.", 116], ["Paula J.", 110], ["Nico U.", 105], ["Marta I.", 99], ["Samuel Y.", 94],
+      ["Lola K.", 88], ["Adrián X.", 83], ["Vera S.", 78], ["Gael M.", 72], ["Olivia R.", 67],
+      ["Rubén C.", 62], ["Alma D.", 57], ["Izan F.", 52], ["Carla G.", 47], ["Unai L.", 43],
+      ["Emma B.", 38], ["Joel P.", 34], ["Abril T.", 30], ["Enzo H.", 26], ["Nora A.", 22],
+      ["Marcos N.", 19], ["Ainhoa E.", 16], ["Teo O.", 13], ["Luna V.", 10], ["Raúl J.", 8]
+    ]
+  },
+  "garments": [
+    { "id": "g_trench", "name": "Midi trench, ZW Collection", "short": "trench", "ref": "3811/244", "line": "ZW Collection", "color": "dark camel", "size": "M", "bought": 2023, "weightKg": 0.84, "listing": "Zara 2023 · Quiet Luxury edit · No. 0088 of 1,200", "image": "garments/trench-coat.svg", "tile": "#EFE3CF" },
+    { "id": "g_jeans", "name": "Wide-leg jeans", "short": "jeans", "ref": "6045/021", "line": "TRF", "color": "mid blue", "size": "38", "bought": 2020, "weightKg": 0.62, "listing": "Zara 2020 · Workwear edit · No. 0214 of 800", "image": "garments/wide-leg-jeans.svg", "tile": "#DDE6F2" },
+    { "id": "g_shirt", "name": "Striped poplin shirt", "short": "shirt", "ref": "2298/107", "line": "Woman", "color": "blue stripe", "size": "M", "bought": 2022, "weightKg": 0.21, "listing": "Zara 2022 · Quiet Luxury edit · No. 0340 of 1,200", "image": "garments/striped-shirt.svg", "tile": "#DDE6F2" },
+    { "id": "g_skirt", "name": "ZW pleated midi skirt", "short": "skirt", "era": 2012, "edit": "Indie Vanguard", "color": "olive", "size": "M", "image": "garments/pleated-midi-skirt.svg", "tile": "#E4DBFF" },
+    { "id": "g_knit", "name": "Cable knit sweater", "short": "knit", "era": 2019, "edit": "Neo Nostalgia", "color": "ecru", "size": "S", "image": "garments/cable-knit-sweater.svg", "tile": "#EFE3CF" },
+    { "id": "g_biker", "name": "Biker jacket, re-cut", "short": "biker jacket", "edit": "Re-cut", "color": "black", "size": "M", "image": "garments/biker-jacket-recut.svg", "tile": "#D9DCE3" },
+    { "id": "g_coat", "name": "Reversible midi trench, ZW", "short": "reversible trench", "season": "AW26", "edit": "AW26", "color": "charcoal", "image": "garments/wool-coat.svg", "tile": "#D9DCE3" },
+    { "id": "g_denim", "name": "Oversized denim jacket", "short": "denim jacket", "era": 2021, "edit": "Workwear", "color": "indigo", "size": "M", "image": "garments/denim-jacket.svg", "tile": "#EAF7B8" },
+    { "id": "g_cargo", "name": "Cargo trousers", "short": "cargo trousers", "era": 2021, "edit": "Utility", "color": "olive", "size": "M", "image": "garments/cargo-trousers.svg", "tile": "#E4E8D6" },
+    { "id": "g_dress", "name": "Printed midi dress", "short": "dress", "color": "rust dot", "image": "garments/printed-midi-dress.svg", "tile": "#FBE5D6" },
+    { "id": "g_blazer", "name": "Linen blazer, re-cut", "short": "linen blazer", "edit": "Re-cut", "color": "sand", "size": "M", "image": "garments/linen-blazer.svg", "tile": "#EFE3CF" }
+  ],
+  "lots": [
+    { "id": "0118", "owner": "u_maya", "garment": "g_dress", "droppedAt": "Zara Serrano", "droppedOn": "2026-09-08", "status": ["collected", "graded", "vintage_lane"], "grade": "B", "keysAwarded": 1 },
+    { "id": "0127", "owner": "u_maya", "garment": "g_blazer", "droppedAt": "Zara Serrano", "droppedOn": "2026-09-15", "status": ["collected", "graded", "vintage_lane", "sold"], "grade": "A", "keysAwarded": 2 },
+    { "id": "0203", "owner": "u_maya", "garment": "g_shirt", "droppedAt": "Zara Gran Vía", "droppedOn": "2026-09-29", "status": ["collected", "graded", "vintage_lane"], "grade": "B", "keysAwarded": 1 },
+    { "id": "0244", "owner": "u_maya", "garment": "g_cargo", "droppedAt": "Zara Gran Vía", "droppedOn": "2026-10-06", "status": ["collected", "graded", "fiber"], "grade": "C", "keysAwarded": 1 },
+    { "id": "0298", "owner": "u_maya", "garment": "g_jeans", "droppedAt": "Zara Serrano", "droppedOn": "2026-10-13", "status": ["collected", "graded", "recut"], "grade": "C", "keysAwarded": 1 },
+    { "id": "0362", "owner": "u_maya", "garment": "g_knit", "droppedAt": "Zara Gran Vía", "droppedOn": "2026-10-20", "status": ["collected", "graded", "vintage_lane"], "grade": "A", "keysAwarded": 2 },
+    { "id": "0391", "owner": "u_maya", "garment": "g_denim", "droppedAt": "Zara Serrano", "droppedOn": "2026-10-27", "weightKg": 0.78, "rfidConfirmed": true, "status": ["collected", "graded", "vintage_lane"], "grade": "A", "keysAwarded": 2, "listing": "Zara 2021 · Workwear edit · No. 0031 of 600" },
+    { "id": "0388", "owner": "u_lucia", "garment": "g_skirt", "droppedAt": "Zara Gran Vía", "droppedOn": "2026-11-03", "status": ["collected", "graded", "vintage_lane"], "grade": "A", "keysAwarded": 2, "listing": "Zara 2012 · Indie Vanguard edit · No. 0417 of 2,400" }
+  ],
+  "keyLedger": [
+    { "user": "u_maya", "delta": 1, "reason": "return", "lot": "0118", "date": "2026-09-08", "note": "Printed midi dress brought back" },
+    { "user": "u_maya", "delta": 1, "reason": "return", "lot": "0127", "date": "2026-09-15", "note": "Linen blazer brought back" },
+    { "user": "u_maya", "delta": 1, "reason": "grade_bonus", "lot": "0127", "date": "2026-09-17", "note": "Linen blazer graded A at the hub" },
+    { "user": "u_maya", "delta": 1, "reason": "return", "lot": "0203", "date": "2026-09-29", "note": "Striped poplin shirt brought back" },
+    { "user": "u_maya", "delta": 1, "reason": "return", "lot": "0244", "date": "2026-10-06", "note": "Cargo trousers brought back" },
+    { "user": "u_maya", "delta": 1, "reason": "return", "lot": "0298", "date": "2026-10-13", "note": "Wide-leg jeans brought back" },
+    { "user": "u_maya", "delta": 1, "reason": "return", "lot": "0362", "date": "2026-10-20", "note": "Cable knit sweater brought back" },
+    { "user": "u_maya", "delta": 1, "reason": "grade_bonus", "lot": "0362", "date": "2026-10-22", "note": "Cable knit sweater graded A at the hub" },
+    { "user": "u_maya", "delta": 1, "reason": "return", "lot": "0391", "date": "2026-10-27", "note": "Denim jacket brought back" },
+    { "user": "u_maya", "delta": 1, "reason": "grade_bonus", "lot": "0391", "date": "2026-10-29", "note": "Denim jacket graded A at the hub" },
+    { "user": "u_maya", "delta": -3, "reason": "drop", "lane": "first_access", "garment": "g_coat", "date": "2026-11-03", "note": "Reversible midi trench, first access" }
+  ],
+  "rules": {
+    "keysPerReturn": 1, "gradeABonusKeys": 1, "monthlyKeyCap": 10,
+    "points": { "return": 50, "look": 15, "heartsPer10": 5, "lookCap": 50, "fitNote": 5, "fitNoteWeeklyCap": 25, "repair": 30, "preOwnedSale": 40, "deckComplete": 5, "deckWeeklyCap": 35, "battleWin": 20, "purchase": 0 },
+    "league": { "size": 50, "promote": 10, "relegate": 10, "resetDay": "Sunday" },
+    "lanes": {
+      "vintage": { "keys": 1, "price": "gradeA:100% of original, gradeB:70%", "gradeBShare": 0.7 },
+      "recut": { "keys": 5, "price": "atelier" },
+      "first_access": { "keys": 3, "price": "same as store", "earlyHours": 24 }
+    },
+    "dropTime": "Tuesday 10:00", "passEarlyMinutes": 10, "reminderMinutesBefore": 15, "passFromTier": "Seam"
+  },
+  "tiers": [
+    { "id": "Thread", "requirement": "Join and do one circular action", "unlocks": ["Daily deck", "City Looks feed"] },
+    { "id": "Stitch", "requirement": "Finish a week in the top 20 of 50", "unlocks": ["Fit notes from owners in your size on vintage listings"] },
+    { "id": "Seam", "requirement": "Top 10 of Stitch, two weeks running", "unlocks": ["Skip-the-line pass: drops 10 minutes early"] },
+    { "id": "Cut", "requirement": "Top 10 of Seam + 2 garments returned this season", "unlocks": ["+1 bonus key a month", "Style Battle entry"] },
+    { "id": "Archive", "requirement": "Top 5% of the city at season end", "unlocks": ["+2 keys a season", "Archive Insider badge", "City Encore night", "First look at re-cut editions"] }
+  ],
+  "deck": {
+    "perDay": 20, "swipedToday": 14, "hypedPieces": ["p_0112", "p_r07", "p_aw26"],
+    "cards": [
+      { "id": "d_cargo", "garment": "g_cargo", "kind": "vintage", "lane": "Vintage · 2021", "grade": "Graded B", "tag": "70% of original", "meta": "Utility edit · No. 0260 of 1,100", "piece": "p_0260" },
+      { "id": "d_skirt", "garment": "g_skirt", "kind": "vintage", "lane": "Vintage · 2012", "grade": "Graded A", "tag": "Tuesday's drop", "meta": "Indie Vanguard edit · No. 0417 of 2,400", "piece": "p_0417" },
+      { "id": "d_denim", "garment": "g_denim", "kind": "vintage", "lane": "Vintage · 2021", "grade": "Graded A", "tag": "next Tuesday", "meta": "Workwear edit · No. 0031 of 600", "price": 45.95, "keys": 1, "owned": true },
+      { "id": "d_shirt", "garment": "g_shirt", "kind": "upcoming", "lane": "Upcoming · AW26", "grade": "First access", "tag": "24 h early", "meta": "The piece everyone else finds sold out", "price": 35.95, "keys": 3 },
+      { "id": "d_blazer", "garment": "g_blazer", "kind": "recut", "lane": "Re-cut · edition of 60", "grade": "No. 12", "tag": "atelier", "meta": "Hand re-cut from 2 returned blazers", "price": 129, "keys": 5 },
+      { "id": "d_dress", "garment": "g_dress", "kind": "new", "lane": "This week", "grade": "New", "tag": "in stores", "meta": "Puff sleeve · rust dot print", "price": 49.95 }
+    ]
+  },
+  "drop": {
+    "lot": "0417", "opens": "2026-11-17T10:00", "passOpens": "2026-11-17T09:50", "reminder": "2026-11-17T09:45", "totalPieces": 2400, "available": 1612,
+    "lanes": [
+      { "id": "vintage", "name": "Vintage by era", "pieces": 1900, "detail": "2010 to 2023 · graded A at full price, graded B at 70%", "garment": "g_skirt" },
+      { "id": "recut", "name": "Re-cut editions", "pieces": 60, "detail": "2 editions · hand re-cut in Arteixo · Atelier prices", "garment": "g_biker" },
+      { "id": "first_access", "name": "First access · AW26", "pieces": 440, "detail": "24 h before the public window · same price", "garment": "g_coat" }
+    ],
+    "pieces": [
+      { "id": "p_0417", "garment": "g_skirt", "lane": "vintage", "number": "No. 0417 of 2,400", "grade": "A", "size": "M", "price": 39.95, "original": 39.95, "keys": 1, "fromLot": "0388", "story": "Brought back at Gran Vía on 3 Nov · graded A at the Cáritas hub on 5 Nov · listed in the Indie Vanguard edit for lot 0417.", "fitNotes": [ { "by": "u_lucia", "size": "M", "fit": "true", "text": "long on 165 cm, stretchy waist" }, { "by": "u_amira", "size": "M", "fit": "true", "text": "sits high, wear with a crop" }, { "by": "u_nadia", "size": "M", "fit": "small", "text": "snug at the hip" } ] },
+      { "id": "p_0112", "garment": "g_knit", "lane": "vintage", "number": "No. 0112 of 900", "grade": "A", "size": "S", "price": 29.95, "original": 29.95, "keys": 1, "story": "Brought back at Serrano on 20 Oct · graded A at the Cáritas hub on 22 Oct · listed in the Neo Nostalgia edit." },
+      { "id": "p_0260", "garment": "g_cargo", "lane": "vintage", "number": "No. 0260 of 1,100", "grade": "B", "size": "M", "price": 27.97, "original": 39.95, "keys": 1, "story": "Brought back at Gran Vía on 27 Oct · graded B at the Cáritas hub on 29 Oct (light wear at the hem) · listed in the Utility edit." },
+      { "id": "p_r07", "garment": "g_biker", "lane": "recut", "number": "No. 07 of 40", "size": "M", "price": 189, "keys": 5, "story": "Hand re-cut in the Arteixo cluster from 2 returned jackets graded unwearable · edition of 40." },
+      { "id": "p_aw26", "garment": "g_coat", "lane": "first_access", "number": "440 held for keys", "price": 149, "keys": 3, "story": "New for AW26 · the same price as in store · open to key holders 24 h before the public window." }
+    ]
+  },
+  "looks": [
+    { "id": "l1", "by": "u_lucia", "garment": "g_skirt", "tag": "lot 0417", "caption": "2012 skirt + my dad's belt", "hearts": 212 },
+    { "id": "l2", "by": "u_jorge", "garment": "g_biker", "tag": "re-cut No. 07", "recut": true, "caption": "two jackets became one", "hearts": 188 },
+    { "id": "l3", "by": "u_amira", "garment": "g_knit", "tag": "2019 · graded A", "caption": "knit from the Tuesday drop", "hearts": 97 },
+    { "id": "l4", "by": "u_maya", "garment": "g_denim", "tag": "you · lot 0391", "caption": "denim on denim, 2021 on 2024", "hearts": 41 }
+  ],
+  "battle": { "id": "b46", "title": "Re-cut vs. 2012", "a": { "look": "l2", "votes": 611 }, "b": { "look": "l1", "votes": 593 }, "prize": "+20 and the Gran Vía store screens" },
+  "closets": {
+    "u_lucia": [
+      { "garment": "g_skirt", "label": "2012 pleated skirt", "status": "In Tuesday's drop · 1 key", "piece": "p_0417" },
+      { "garment": "g_biker", "label": "2019 biker jacket", "status": "For sale on Pre-Owned · €32", "preOwned": true }
+    ]
+  },
+  "cityGoal": {
+    "season": "AW26", "city": "Madrid", "target": 100000, "current": 61240, "mine": 7,
+    "milestones": [
+      { "at": 25000, "reward": "Free repair weekend in every Madrid Zara", "reached": true },
+      { "at": 50000, "reward": "5,000 paid training hours at Cáritas Moda re-, funded by Zara", "reached": true },
+      { "at": 75000, "reward": "The city votes on a re-cut edition; proceeds go to Cáritas", "reached": false },
+      { "at": 100000, "reward": "10,000 trees planted with Madrid's parks, plus the city Encore night", "reached": false }
+    ],
+    "race": [ { "city": "Madrid", "share": 0.61 }, { "city": "Barcelona", "share": 0.54 }, { "city": "London", "share": 0.48 } ]
+  },
+  "wrapped": { "season": "AW26", "bestWeeklyRank": 2, "signatureEra": "2012 · Indie Vanguard", "eraShare": 0.62 }
+}

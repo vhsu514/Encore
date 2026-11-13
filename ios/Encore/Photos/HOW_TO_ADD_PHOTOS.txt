@@ -1,0 +1,22 @@
+Real product photos
+
+Drop a photo in this folder named after the garment id and it replaces the
+placeholder illustration everywhere in the app. No code changes.
+
+  g_trench.jpg    Midi trench, ZW Collection
+  g_skirt.jpg     ZW pleated midi skirt
+  g_knit.jpg      Cable knit sweater
+  g_biker.jpg     Biker jacket, re-cut
+  g_coat.jpg      Reversible midi trench, ZW
+  g_denim.jpg     Oversized denim jacket
+  g_cargo.jpg     Cargo trousers
+  g_dress.jpg     Printed midi dress
+  g_blazer.jpg    Linen blazer, re-cut
+  g_jeans.jpg     Wide-leg jeans
+  g_shirt.jpg     Striped poplin shirt
+
+.jpg, .jpeg and .png all work. Portrait photos on a plain background look best
+(they are cropped to fill a 4:5 tile). The ids are the "id" values under
+"garments" in Resources/seed.json.
+
+Product photos belong to their owner. Use them for the competition demo only.
