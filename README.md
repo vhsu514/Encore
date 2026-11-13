@@ -1,6 +1,9 @@
 # Encore
 
-**Your old Zara gets you into the new drop.** Encore is a circular-fashion concept designed to live as its own tab inside the Zara app. This repository is a working, clickable, mobile-first build of all 25 screens.
+**Your old Zara gets you into the new drop.** Encore is a circular-fashion concept designed to live as its own tab inside the Zara app. This repository holds two builds of it that share the same rules and demo data:
+
+- **`ios/`**: a native SwiftUI app you open in Xcode and run on an iPhone or the simulator.
+- **the repository root**: a mobile-first web app you can open from a link on any phone.
 
 > **Design concept.** A student project for the BIC × Zara case competition (Round 1, Fall 2026) by Victor Hsu (captain), Juliet Dong, Sophie Hsu and Kaitlyn Lavichant. Not affiliated with or endorsed by Zara or Inditex. All people, numbers and lots are illustrative.
 
@@ -18,7 +21,27 @@ Secondhand Zara has no status, no date and no drop, so buying new always wins. E
 
 The loop: **bring it back → swipe → climb → unlock.** Keys open the door; money buys the piece. Nothing is earned by spending.
 
-## Run it
+## Run the iOS app
+
+Needs a Mac with Xcode 16 or newer (iOS 17+).
+
+1. Open `ios/Encore.xcodeproj` in Xcode.
+2. Pick an iPhone simulator and press Run (⌘R).
+3. To run on your own iPhone, select the Encore target, open **Signing & Capabilities** and choose your team.
+
+Press ⌘U to run the tests. The **Demo** menu (the ··· button on the home screen) has the demo story and Reset demo.
+
+**Adding real product photos:** drop a photo into `ios/Encore/Photos/` named after the garment id, for example `g_trench.jpg`. It replaces the illustration everywhere, with no code changes. The full list of ids is in `ios/Encore/Photos/HOW_TO_ADD_PHOTOS.txt`.
+
+| Path | What it is |
+|---|---|
+| `ios/Encore/Model/` | Entities, the business rules (`Rules.swift`) and the state store |
+| `ios/Encore/Design/Theme.swift` | The design system: palette, type, buttons, tags, garment image |
+| `ios/Encore/Screens/` | The screens, grouped by chapter |
+| `ios/Encore/Resources/seed.json` | A copy of `data/seed.json`; a build check keeps the two identical |
+| `ios/EncoreTests/` | Unit tests for the rules and the demo story |
+
+## Run the web app
 
 Needs Node 20 or newer.
 

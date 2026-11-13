@@ -1,5 +1,7 @@
 # Encore design system
 
+> This page describes the first design language (dark "ink" with lime), which the web app uses. The iOS app uses the second, "editorial" language described at the end of this page.
+
 Tokens are in `design/tokens.json`. The working stylesheet the screens use is `design/encore.css`; port it to your styling system (Tailwind theme, CSS variables or styled components) rather than inventing new values.
 
 ## Look
@@ -52,3 +54,17 @@ No emoji as icons (simple stroke SVGs instead). No countdowns, gradient washes o
 ## Garment imagery
 
 `design/assets/*.svg` are placeholder flat illustrations, each shown on a soft tinted tile (lilac `#E4DBFF` skirt, sand `#EFE3CF` trench/knit, lime-tint `#EAF7B8` denim, grey `#D9DCE3` biker/coat). Model images as `garment.image` URLs so real product photos can replace them without layout changes.
+
+## Version 2: editorial (iOS app)
+
+The first design read as a generic dark-mode app. The second borrows from how fashion retail apps actually look: the interface is a quiet frame and the clothes carry the screen.
+
+- **Paper** `#F7F5F1` background, **ink** `#111111` type, **stone** `#66625B` secondary text, **rule** `#D5D1C8` hairlines, **tile** `#ECE9E3` behind garments.
+- Colour only where it means something: **brass** `#85640F` on `#EADAAC` for Archive Keys, **moss** `#2D5428` for earned or confirmed, **clay** `#A3411E` for warnings.
+- **Square corners, no shadows, no gradients, no glow.** Hierarchy comes from white space, hairline rules and type size.
+- **Type:** the system serif for headlines and figures, the system sans for everything else, both scaling with Dynamic Type. Small tracked uppercase labels for section names and tags.
+- **Components:** full-width rectangular buttons (filled, outlined, brass); rectangular tags instead of pills; numbered list rows (`01`, `02`) instead of icon cards; thin progress lines; a brass block for the keys wallet and an ink block for the pass.
+- **Native behaviour:** the system tab bar, navigation stack with the standard back swipe, sheets with detents, segmented controls, system switches, SF Symbols, haptics on confirm, and Reduce Motion respected.
+- **Photography:** garment tiles are 4:5 and fill with a product photo when one is supplied (see `ios/Encore/Photos/`).
+
+Tokens live in `ios/Encore/Design/Theme.swift`.

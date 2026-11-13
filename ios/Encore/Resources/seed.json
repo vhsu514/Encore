@@ -1,5 +1,5 @@
 {
-  "_note": "Demo data for the Encore concept. All people, numbers and lots are illustrative. The demo story: Maya starts with 7 keys, returns a trench (8 keys), then buys the 2012 pleated skirt in Tuesday's drop (7 keys left). Balances are never stored: they are summed from keyLedger.",
+  "_note": "Demo data for the Encore concept. All people, numbers and lots are illustrative. Garments with a ref use the name and reference of a real zara.com listing; eras, edits, grades and most prices are invented for the story. The demo story: Maya starts with 7 keys, returns a trench (8 keys), then buys the 2012 pleated skirt in Tuesday's drop (7 keys left). Balances are never stored: they are summed from keyLedger.",
   "me": "u_maya",
   "clock": { "start": "2026-11-10T10:02", "store": "Zara Gran Vía", "bin": "Bin 02" },
   "users": [
@@ -26,14 +26,14 @@
     ]
   },
   "garments": [
-    { "id": "g_trench", "name": "Midi trench, ZW Collection", "short": "trench", "ref": "3811/244", "line": "ZW Collection", "color": "dark camel", "size": "M", "bought": 2023, "weightKg": 0.84, "listing": "Zara 2023 · Quiet Luxury edit · No. 0088 of 1,200", "image": "garments/trench-coat.svg", "tile": "#EFE3CF" },
+    { "id": "g_trench", "name": "ZW Collection oversize trench coat", "short": "trench", "ref": "3171/347", "line": "ZW Collection", "color": "light whisky", "size": "M", "bought": 2023, "weightKg": 0.84, "listing": "Zara 2023 · Quiet Luxury edit · No. 0088 of 1,200", "image": "garments/trench-coat.svg", "tile": "#EFE3CF" },
     { "id": "g_jeans", "name": "Wide-leg jeans", "short": "jeans", "ref": "6045/021", "line": "TRF", "color": "mid blue", "size": "38", "bought": 2020, "weightKg": 0.62, "listing": "Zara 2020 · Workwear edit · No. 0214 of 800", "image": "garments/wide-leg-jeans.svg", "tile": "#DDE6F2" },
     { "id": "g_shirt", "name": "Striped poplin shirt", "short": "shirt", "ref": "2298/107", "line": "Woman", "color": "blue stripe", "size": "M", "bought": 2022, "weightKg": 0.21, "listing": "Zara 2022 · Quiet Luxury edit · No. 0340 of 1,200", "image": "garments/striped-shirt.svg", "tile": "#DDE6F2" },
-    { "id": "g_skirt", "name": "ZW pleated midi skirt", "short": "skirt", "era": 2012, "edit": "Indie Vanguard", "color": "olive", "size": "M", "image": "garments/pleated-midi-skirt.svg", "tile": "#E4DBFF" },
-    { "id": "g_knit", "name": "Cable knit sweater", "short": "knit", "era": 2019, "edit": "Neo Nostalgia", "color": "ecru", "size": "S", "image": "garments/cable-knit-sweater.svg", "tile": "#EFE3CF" },
-    { "id": "g_biker", "name": "Biker jacket, re-cut", "short": "biker jacket", "edit": "Re-cut", "color": "black", "size": "M", "image": "garments/biker-jacket-recut.svg", "tile": "#D9DCE3" },
-    { "id": "g_coat", "name": "Reversible midi trench, ZW", "short": "reversible trench", "season": "AW26", "edit": "AW26", "color": "charcoal", "image": "garments/wool-coat.svg", "tile": "#D9DCE3" },
-    { "id": "g_denim", "name": "Oversized denim jacket", "short": "denim jacket", "era": 2021, "edit": "Workwear", "color": "indigo", "size": "M", "image": "garments/denim-jacket.svg", "tile": "#EAF7B8" },
+    { "id": "g_skirt", "name": "ZW Collection box pleat midi skirt", "short": "skirt", "ref": "2731/273", "era": 2012, "edit": "Indie Vanguard", "color": "olive", "size": "M", "image": "garments/pleated-midi-skirt.svg", "tile": "#E4DBFF" },
+    { "id": "g_knit", "name": "Zara Timeless cable knit wool sweater", "short": "knit", "ref": "9598/568", "era": 2019, "edit": "Neo Nostalgia", "color": "ecru", "size": "S", "image": "garments/cable-knit-sweater.svg", "tile": "#EFE3CF" },
+    { "id": "g_biker", "name": "Leather effect biker jacket, re-cut", "short": "biker jacket", "ref": "8491/420", "edit": "Re-cut", "color": "black", "size": "M", "image": "garments/biker-jacket-recut.svg", "tile": "#D9DCE3" },
+    { "id": "g_coat", "name": "ZW Collection water repellent cape trench coat", "short": "cape trench", "ref": "8491/041", "season": "AW26", "edit": "AW26", "color": "charcoal", "image": "garments/wool-coat.svg", "tile": "#D9DCE3" },
+    { "id": "g_denim", "name": "Oversized fit denim jacket", "short": "denim jacket", "ref": "4551/444", "era": 2021, "edit": "Workwear", "color": "indigo", "size": "M", "image": "garments/denim-jacket.svg", "tile": "#EAF7B8" },
     { "id": "g_cargo", "name": "Cargo trousers", "short": "cargo trousers", "era": 2021, "edit": "Utility", "color": "olive", "size": "M", "image": "garments/cargo-trousers.svg", "tile": "#E4E8D6" },
     { "id": "g_dress", "name": "Printed midi dress", "short": "dress", "color": "rust dot", "image": "garments/printed-midi-dress.svg", "tile": "#FBE5D6" },
     { "id": "g_blazer", "name": "Linen blazer, re-cut", "short": "linen blazer", "edit": "Re-cut", "color": "sand", "size": "M", "image": "garments/linen-blazer.svg", "tile": "#EFE3CF" }
@@ -59,7 +59,7 @@
     { "user": "u_maya", "delta": 1, "reason": "grade_bonus", "lot": "0362", "date": "2026-10-22", "note": "Cable knit sweater graded A at the hub" },
     { "user": "u_maya", "delta": 1, "reason": "return", "lot": "0391", "date": "2026-10-27", "note": "Denim jacket brought back" },
     { "user": "u_maya", "delta": 1, "reason": "grade_bonus", "lot": "0391", "date": "2026-10-29", "note": "Denim jacket graded A at the hub" },
-    { "user": "u_maya", "delta": -3, "reason": "drop", "lane": "first_access", "garment": "g_coat", "date": "2026-11-03", "note": "Reversible midi trench, first access" }
+    { "user": "u_maya", "delta": -3, "reason": "drop", "lane": "first_access", "garment": "g_coat", "date": "2026-11-03", "note": "Cape trench coat, first access" }
   ],
   "rules": {
     "keysPerReturn": 1, "gradeABonusKeys": 1, "monthlyKeyCap": 10,
@@ -102,7 +102,7 @@
       { "id": "p_0112", "garment": "g_knit", "lane": "vintage", "number": "No. 0112 of 900", "grade": "A", "size": "S", "price": 29.95, "original": 29.95, "keys": 1, "story": "Brought back at Serrano on 20 Oct · graded A at the Cáritas hub on 22 Oct · listed in the Neo Nostalgia edit." },
       { "id": "p_0260", "garment": "g_cargo", "lane": "vintage", "number": "No. 0260 of 1,100", "grade": "B", "size": "M", "price": 27.97, "original": 39.95, "keys": 1, "story": "Brought back at Gran Vía on 27 Oct · graded B at the Cáritas hub on 29 Oct (light wear at the hem) · listed in the Utility edit." },
       { "id": "p_r07", "garment": "g_biker", "lane": "recut", "number": "No. 07 of 40", "size": "M", "price": 189, "keys": 5, "story": "Hand re-cut in the Arteixo cluster from 2 returned jackets graded unwearable · edition of 40." },
-      { "id": "p_aw26", "garment": "g_coat", "lane": "first_access", "number": "440 held for keys", "price": 149, "keys": 3, "story": "New for AW26 · the same price as in store · open to key holders 24 h before the public window." }
+      { "id": "p_aw26", "garment": "g_coat", "lane": "first_access", "number": "440 held for keys", "price": 89.95, "keys": 3, "story": "New for AW26 · the same price as in store · open to key holders 24 h before the public window." }
     ]
   },
   "looks": [

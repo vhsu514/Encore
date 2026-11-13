@@ -3,17 +3,20 @@ Real product photos
 Drop a photo in this folder named after the garment id and it replaces the
 placeholder illustration everywhere in the app. No code changes.
 
-  g_trench.jpg    Midi trench, ZW Collection
-  g_skirt.jpg     ZW pleated midi skirt
-  g_knit.jpg      Cable knit sweater
-  g_biker.jpg     Biker jacket, re-cut
-  g_coat.jpg      Reversible midi trench, ZW
-  g_denim.jpg     Oversized denim jacket
+  g_trench.jpg    ZW Collection oversize trench coat (zara.com ref 3171/347)
+  g_skirt.jpg     ZW Collection box pleat midi skirt (ref 2731/273)
+  g_knit.jpg      Zara Timeless cable knit wool sweater (ref 9598/568)
+  g_biker.jpg     Leather effect biker jacket (ref 8491/420)
+  g_coat.jpg      ZW Collection water repellent cape trench coat (ref 8491/041)
+  g_denim.jpg     Oversized fit denim jacket (ref 4551/444)
   g_cargo.jpg     Cargo trousers
   g_dress.jpg     Printed midi dress
-  g_blazer.jpg    Linen blazer, re-cut
+  g_blazer.jpg    Linen blazer
   g_jeans.jpg     Wide-leg jeans
   g_shirt.jpg     Striped poplin shirt
+
+Search the reference on zara.com to find the product page, then save its main
+photo under the file name on the left.
 
 .jpg, .jpeg and .png all work. Portrait photos on a plain background look best
 (they are cropped to fill a 4:5 tile). The ids are the "id" values under
