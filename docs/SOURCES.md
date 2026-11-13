@@ -1,0 +1,56 @@
+# Works cited
+
+From the case deck. Figures marked as estimates are team assumptions.
+
+- adidas (Mar 2026). Annual Report 2025: adiClub points unlock raffles and exclusive benefits.
+- Aggarwal, P., Jun, S.Y. and Huh, J.H. (2011). Scarcity messages. Journal of Advertising 40(3): limited quantity beats limited time.
+- Antavo (Feb 2026). Global Customer Loyalty Report 2026: 49.1% say rewards take too long to earn.
+- Avery Dennison (2025, 2026). Zara RFID labels cannot be washed after application; Durable PFL rated 10 to 12 washes.
+- Bazaarvoice (Mar 2025). Shopper Preference Report: 52% say real customer reviews decide the purchase; short-form video most trusted (46%).
+- Benzinga and Bezzia (Oct 2026). Jefferies on Galliano Re{form}: numerous sold-out items online, about €100M; 157 pieces.
+- BEUC (Jun 2025). Complaint against Shein by 25 groups in 21 countries: timers, low-stock messages, nagging.
+- Boston Globe (Aug 2026). Beli: over 120 million pairwise restaurant rankings, 2 million establishments.
+- Changing Markets (2023). Take-back Trickery: 76% of tracked items destroyed, exported or warehoused.
+- China Daily (Apr 2026). Pop Mart FY2025: revenue RMB 37.1bn (+185%); Labubu RMB 14.2bn (+366%); shares fell on single-IP risk.
+- Complex; Hypebeast (2021; May 2023; 2020). SNKRS Exclusive Access earned by engagement; 12bn bot entries a month; The North Face Remade $50 to $400.
+- Deci, E., Koestner, R. and Ryan, R. (2001). Meta-analysis of 128 experiments: tangible rewards d = -0.36, informational rewards +0.33.
+- Depop (Dec 2024; Dec 2025; 2026). Trend reports: Indie Vanguard (2025), Neo Nostalgia (2026); Top Seller program: earned status, never bought.
+- Depop and Bain & Company (May 2021). Survey of 2,000+ Gen Z Depop users: 75% buy secondhand to reduce consumption, 55% for one-of-a-kind pieces, 45% to keep up with trends, 35% because it is cool.
+- Drèze, X. and Nunes, J. (2009). Feeling Superior, Journal of Consumer Research: a tier's status rises when a tier exists below it.
+- Duolingo (Feb, Nov 2026). Q4 2025: DAU 52.7M, MAU 133.1M; Q3 2026: DAU +29%. Lenny's Newsletter, J. Mazal (Feb 2023): leaderboards +17% learning time, engaged users tripled.
+- Euronews (Feb 2026; Nov 2026). Commission opens DSA case against Shein over addictive design; Digital Fairness Act leaked draft: switch off streak rewards, fines up to 6%.
+- European Commission and Parliament (2026). DG ENV: destruction ban in application from 19 Jul 2026. OEIL: Directive (EU) 2025/1892, textile EPR schemes by 17 Apr 2028. EUR-Lex: Directive 2024/825 from 27 Sep 2026.
+- FashionUnited (Jun 2024; Jul 2026; Aug 2026; Sep 2026). 61.8M Zara items on Vinted; AGM: RFID in over 90% of products, MMBRS 40M; StockX H1 2026: Supreme premium 11% to 41%, Palace 9% to 81%; Galliano launch 1 Oct.
+- Glossy (Mar 2026; Aug 2026; Oct 2026). Zara collab pieces resell at 2 to 4x; Sephora: 46M+ members, 30% did Beauty Insider Challenges; Launchmetrics: Galliano $8.3M MIV, 62% archival authority, premium strategy 2x MIV.
+- H&M Group (Mar 2026). Annual report 2025: 60% of collected garments to reuse.
+- HBS Working Knowledge (2000). Early demand signals cut forecast error from 30% to 9%; Zara cited.
+- Inditex (Mar 2026; Sep 2026 via MarketScreener and TheIndustry.fashion). FY2025: sales €39.9bn, gross margin 58.3%, online 26.8%, Zara 2,089 stores, 88% lower-impact and 47% recycled fibers, Try-On; H1 2026: sales €19.8bn (+9.2% cc), gross margin 58.7%, Q3 +9%, soft-tag RFID in all stores. SNFI 2022: 17,015 t collected.
+- LoyaltyLion via TheIndustry.fashion (Jul 2025). 73% of Gen Z and Millennials motivated by experience rewards; 70% of Gen Z would pay to join.
+- Marie Claire (Dec 2022). 670,616 Zara resale listings against 590 monthly searches.
+- McKinsey (Oct 2021). Next in loyalty: active members +10%, redeemers +25%. Retail Brew (Apr 2026): 58% of secondhand-first buyers later buy new.
+- Oxfam (Sep 2026). State of Style 2026: 57% feel pressure to keep up; items worn under 5 days; 32% unworn.
+- Phiture (Mar 2026). App benchmarks: DAU over MAU 20% good, 25% excellent; shopping apps D30 about 5 to 6%.
+- Pinterest (Aug 2025; Dec 2025). Fall trend report: dream thrift finds +550%, vintage fall aesthetic +1,074%; Predicts 2026: 80s luxury +225%, 67% of trends driven by Gen Z.
+- RE/DONE; Fashion Dive (2024; Apr 2025). 200,000+ pairs of vintage Levi's re-cut by hand; Urban Outfitters Vintage & ReMade $45 to $270.
+- Reason Why (Jul 2026). NaviLens code on Inditex internal care labels, all products by SS2027.
+- Recover (Jan 2025). Verified LCA: 93% less CO2 per kg than conventional cotton.
+- Retail Dive; DIGIT; FashionUnited (2017, 2018, 2022). Mallzee 1M downloads, 300M ratings; Grabble shut 2018; Pinterest acquires The Yes.
+- Retail Gazette (Jul 2026). Depop: 7M active buyers, nearly 90% under 34, 3M+ active sellers; eBay acquisition for about $1.2bn completed 30 Jul 2026.
+- Revista Cáritas (Mar 2026). Moda re- 2025: 50.9M kg collected, 9,172 containers, 191 shops; Santiago sorting plant with Inditex and the Xunta.
+- RFID News (Nov 2026). Zara soft-tag RFID; passive UHF; a pile read in about a second; self-checkout up to 90% of transactions.
+- Sailer, M. and Homner, L. (2020). Meta-analysis of gamification: competition combined with collaboration moves behaviour most.
+- Sensor Tower (Jan 2026). Zara app in Europe: 11.1M active users at peak, 738K weekly downloads.
+- Sina Finance (Oct 2026). Galliano Re{form} on the Zara app in China: accessories sold out in under ten minutes; most of the line followed.
+- Starbucks (Jan 2026; Oct 2026). Rewards drives nearly 60% of US company-operated revenue; 36M active members climb tiers "first and foremost by frequency".
+- Strava (Dec 2025). Year in Sport 2025: 180M users, 1M clubs, new clubs nearly 4x; Gen Z 75% more likely than Gen X to cite an event as motivation.
+- Team survey (Nov 2026). n = [ ], ages 18 to 30, Harvard campus networks. Results reported with sample size.
+- TechCrunch (Dec 2025). Spotify Wrapped 2025: 200M users in 24 hours, 500M+ shares.
+- TechPolicy Press (May 2026). Commission fines Temu €200M under the DSA.
+- TheIndustry.fashion (Sep 2025). eBay Authenticity Guarantee: 1M items in a quarter; "vintage" searched 1,000+ times a minute.
+- ThredUp (Mar 2025, Apr 2026). 49%/60% would buy more secondhand if trends findable; 47% more likely to buy with trade-in credit.
+- TOMRA (Jun 2026). Germany deposit return: 98% return rate, €0.25, about 135,000 return points.
+- Treet; Trove; Trellis (2026; 2024; Oct 2026). Credit takers spend 270% above credit; 700+ stores, 31% same-day, Clare V. 35% new; Patagonia Worn Wear 230,000 processed, 80% resellable.
+- Ulta Beauty (Mar 2026). 46.7M active members (+5%); loyalty base cited for needing no elevated promotions in 2026.
+- WRAP (Feb 2025). Displacement rates: resale 64.6%, repair 82.2%.
+- YouGov (Oct 2026). US secondhand concerns: hygiene 48%, condition 45%, fit 38%, limited styles 22%.
+- Zalando; Zara; Zebra (Jul 2026; 2026). 62% of pre-owned sells within 7 days; Zara help center: collection program, Pre-Owned auto-fill; Zebra FX9600 $1,336, antenna $247.
