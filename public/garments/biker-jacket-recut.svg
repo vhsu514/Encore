@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Black re-cut biker jacket">
+<!-- Placeholder illustration. Replace with a product photo by changing garment.image in data/seed.json. -->
+<ellipse cx="100" cy="226" rx="60" ry="6" fill="#000" opacity=".12"/>
+<path d="M68 36 40 52 26 160l24 6 8-56v86h84v-86l8 56 24-6L160 52l-28-16-32 22z" fill="#1E2026"/>
+<path d="M68 36l32 22-16 30-26-38zM132 36l-32 22 16 30 26-38z" fill="#30333C"/>
+<path d="M100 58 86 196" stroke="#9AA0AC" stroke-width="2.5"/>
+<path d="M112 108l20-6M66 150l16 4M118 154l16-4" stroke="#9AA0AC" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="58" y="188" width="84" height="8" fill="#30333C"/><circle cx="128" cy="76" r="2.5" fill="#9AA0AC"/>
+</svg>

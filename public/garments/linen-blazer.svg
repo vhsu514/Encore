@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Sand linen blazer">
+<!-- Placeholder illustration. Replace with a product photo by changing garment.image in data/seed.json. -->
+<ellipse cx="100" cy="226" rx="60" ry="6" fill="#000" opacity=".12"/>
+<path d="M68 36 40 52 26 160l24 6 8-56v84h84v-84l8 56 24-6L160 52l-28-16-32 22z" fill="#D8C39A"/>
+<path d="M68 36l32 22-16 30-26-38zM132 36l-32 22 16 30 26-38z" fill="#C4AE83"/>
+<path d="M100 58v134" stroke="#B39C70" stroke-width="2"/>
+<g fill="#8A7650"><circle cx="100" cy="112" r="3.2"/><circle cx="100" cy="140" r="3.2"/></g>
+<path d="M66 150h22M112 150h22" stroke="#B39C70" stroke-width="3" stroke-linecap="round"/>
+</svg>

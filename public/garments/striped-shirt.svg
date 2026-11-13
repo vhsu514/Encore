@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Blue striped poplin shirt">
+<!-- Placeholder illustration. Replace with a product photo by changing garment.image in data/seed.json. -->
+<ellipse cx="100" cy="226" rx="60" ry="6" fill="#000" opacity=".12"/>
+<defs><pattern id="s" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#F3F6FB"/><rect width="3" height="8" fill="#7FA0D4"/></pattern></defs>
+<path d="M70 36 42 50 28 132l22 6 10-48v124h80V90l10 48 22-6-14-82-28-14-30 16z" fill="url(#s)"/>
+<path d="M70 36l30 16-12 20-22-28zM130 36l-30 16 12 20 22-28z" fill="#F3F6FB" stroke="#7FA0D4" stroke-width="1.5"/>
+<path d="M100 54v160" stroke="#7FA0D4" stroke-width="1.5"/>
+<g fill="#5F86BF"><circle cx="100" cy="84" r="2.4"/><circle cx="100" cy="112" r="2.4"/><circle cx="100" cy="140" r="2.4"/><circle cx="100" cy="168" r="2.4"/><circle cx="100" cy="196" r="2.4"/></g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Indigo oversized denim jacket">
+<!-- Placeholder illustration. Replace with a product photo by changing garment.image in data/seed.json. -->
+<ellipse cx="100" cy="226" rx="60" ry="6" fill="#000" opacity=".12"/>
+<path d="M68 36 40 52 26 160l24 6 8-56v86h84v-86l8 56 24-6L160 52l-28-16-32 22z" fill="#3B5B8C"/>
+<path d="M68 36l32 22-16 30-26-38zM132 36l-32 22 16 30 26-38z" fill="#2E4A75"/>
+<path d="M100 58v138" stroke="#C9A45A" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="64" y="96" width="26" height="24" rx="2" fill="#34527F" stroke="#C9A45A" stroke-width="1.2" stroke-dasharray="3 2"/><rect x="110" y="96" width="26" height="24" rx="2" fill="#34527F" stroke="#C9A45A" stroke-width="1.2" stroke-dasharray="3 2"/>
+<g fill="#D9B56A"><circle cx="100" cy="76" r="2.6"/><circle cx="100" cy="104" r="2.6"/><circle cx="100" cy="132" r="2.6"/><circle cx="100" cy="160" r="2.6"/><circle cx="77" cy="102" r="2"/><circle cx="123" cy="102" r="2"/></g>
+<rect x="58" y="188" width="84" height="8" fill="#2E4A75"/>
+</svg>

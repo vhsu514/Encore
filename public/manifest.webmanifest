@@ -1,0 +1,10 @@
+{
+  "name": "Encore (design concept)",
+  "short_name": "Encore",
+  "description": "Student design concept. Not affiliated with Zara or Inditex.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0B0C10",
+  "theme_color": "#0B0C10",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Camel midi trench coat">
+<!-- Placeholder illustration. Replace with a product photo by changing garment.image in data/seed.json. -->
+<ellipse cx="100" cy="226" rx="60" ry="6" fill="#000" opacity=".12"/>
+<path d="M68 36 40 52 26 160l24 6 8-56v106h84v-106l8 56 24-6L160 52l-28-16-32 22z" fill="#C49A5E"/>
+<path d="M68 36l32 22-16 30-26-38zM132 36l-32 22 16 30 26-38z" fill="#AE864C"/>
+<path d="M100 58v156" stroke="#9C7640" stroke-width="2"/>
+<rect x="58" y="126" width="84" height="11" fill="#9C7640"/><rect x="93" y="122" width="14" height="19" rx="2" fill="none" stroke="#6E5127" stroke-width="3"/>
+<g fill="#6E5127"><circle cx="88" cy="100" r="3"/><circle cx="112" cy="100" r="3"/><circle cx="88" cy="158" r="3"/><circle cx="112" cy="158" r="3"/><circle cx="88" cy="184" r="3"/><circle cx="112" cy="184" r="3"/></g>
+</svg>

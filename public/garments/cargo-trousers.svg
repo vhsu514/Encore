@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Olive cargo trousers">
+<!-- Placeholder illustration. Replace with a product photo by changing garment.image in data/seed.json. -->
+<ellipse cx="100" cy="226" rx="60" ry="6" fill="#000" opacity=".12"/>
+<path d="M60 26h80l12 196h-40l-12-124-12 124H48z" fill="#6E8B3D"/>
+<rect x="58" y="20" width="84" height="13" rx="2" fill="#4E6A2A"/>
+<path d="M100 34v64" stroke="#557030" stroke-width="2"/><path d="M92 36q8 10 16 0" stroke="#D9E3BF" stroke-width="2" fill="none"/>
+<rect x="52" y="112" width="28" height="36" rx="2" fill="#5D7A32"/><rect x="120" y="112" width="28" height="36" rx="2" fill="#5D7A32"/>
+<path d="M52 122h28M120 122h28" stroke="#4E6A2A" stroke-width="2"/><circle cx="66" cy="117" r="2" fill="#D9E3BF"/><circle cx="134" cy="117" r="2" fill="#D9E3BF"/>
+</svg>

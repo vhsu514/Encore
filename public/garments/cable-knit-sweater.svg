@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Ecru cable knit sweater">
+<!-- Placeholder illustration. Replace with a product photo by changing garment.image in data/seed.json. -->
+<ellipse cx="100" cy="226" rx="60" ry="6" fill="#000" opacity=".12"/>
+<path d="M72 40q28 16 56 0l34 22 14 98-22 6-10-60v112H56V106l-10 60-22-6 14-98z" fill="#E9E1D0"/>
+<path d="M72 40q28 16 56 0l-5 9q-23 11-46 0z" fill="#CFC4AC"/>
+<g stroke="#CBBFA6" stroke-width="3" fill="none" stroke-linecap="round"><path d="M84 64q8 12 0 24t0 24 0 24 0 24 0 24 0 22"/><path d="M100 64q-8 12 0 24t0 24 0 24 0 24 0 24 0 22"/><path d="M100 64q8 12 0 24t0 24 0 24 0 24 0 24 0 22"/><path d="M116 64q-8 12 0 24t0 24 0 24 0 24 0 24 0 22"/></g>
+<rect x="56" y="206" width="88" height="12" fill="#CFC4AC"/>
+</svg>
