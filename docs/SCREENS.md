@@ -1,5 +1,7 @@
 # Screens
 
+> **About the files named here.** The screenshots in `design/screenshots/` are captured from this app (390×844 at 2x; `*_after.png` shows the state after the main interaction). The original design sources (`design/screens-source`, `design/screens-standalone`) are not part of this repository. Each screen lives in `src/screens/` and its route is the "suggested route" below. Decisions that differ from this hand-off are recorded in `docs/OPEN_QUESTIONS.md`.
+
 All 25 screens of the Encore tab, in the order a new user meets them. Each has: source (`design/screens-source/<File>.dc.html`), a runnable static copy (`design/screens-standalone/<File>.html`), a 2x screenshot (`design/screenshots/<File>.png`), the designer's step guide, where its buttons go, and its interactive state.
 
 Every screen is a 390×844 phone frame. Navigation is by tapping links; `links_to` lists the targets.
