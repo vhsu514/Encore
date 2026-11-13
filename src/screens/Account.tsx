@@ -57,7 +57,7 @@ export function Keys() {
             </span>
           </div>
           <b style={{ fontSize: 13 }}>
-            keys · {selKeysEarned(s)} earned this season · {selDropsEntered(s)} drops entered
+            keys · {selKeysEarned(s)} earned this season · {selDropsEntered(s)} {selDropsEntered(s) === 1 ? "drop" : "drops"} entered
           </b>
           <div className="row wrap">
             <Chip tone="ink">never expire</Chip>

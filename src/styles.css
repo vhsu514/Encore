@@ -546,6 +546,7 @@ a.chip {
   padding: 0 12px;
 }
 .sticker {
+  white-space: nowrap;
   display: inline-block;
   align-self: flex-start;
   padding: 5px 12px;
@@ -2103,4 +2104,27 @@ input.line::placeholder {
   .binscene .falling {
     transform: translateY(150px);
   }
+}
+
+/* ---------- Layout guards ---------- */
+.body > * {
+  flex-shrink: 0;
+}
+.card.tap.row {
+  display: flex;
+}
+.sheet .btn-ghost {
+  color: var(--text);
+}
+.screen.ink .opt[aria-checked='true'] {
+  background: var(--lime);
+  color: var(--ink);
+  border-color: var(--lime);
+}
+.lb.me .avatar {
+  background: var(--ink) !important;
+}
+select.pick {
+  flex: none;
+  max-width: 132px;
 }

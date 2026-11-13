@@ -49,8 +49,8 @@ export function DropHome() {
         <span className="label">
           Pieces you hyped · {hyped.length} in this drop
         </span>
-        <div className="row" style={{ alignItems: 'stretch' }}>
-          {hyped.slice(0, 4).map((p) => (
+        <div className="row">
+          {hyped.slice(0, 5).map((p) => (
             <Link key={p.id} to={`/piece/${p.id}`} aria-label={garment(p.garment).name} style={{ width: 60, flex: 'none' }}>
               <GarmentTile g={garment(p.garment)}>
                 <span className="bl lime">
@@ -59,7 +59,10 @@ export function DropHome() {
               </GarmentTile>
             </Link>
           ))}
-          <p className="card sub grow" style={{ padding: 10, fontSize: 12 }}>
+        </div>
+        <div className="card note">
+          <Icon name="calendar" size={18} />
+          <p>
             {s.settings.dropReminder
               ? `You’ll get a nudge Tuesday at ${clock(drop.reminder)}. One nudge, not ten.`
               : 'Drop notifications are off. No nudge on Tuesday.'}
@@ -310,9 +313,11 @@ export function Piece() {
                   true to size · {trueCount} of {notes.length}
                 </b>
               </div>
-              <p className="sub">
-                {notes.map((n) => `“${n.text}” · ${user(n.by).name.split(' ')[0]}, ${n.size}`).join('  ')}
-              </p>
+              {notes.map((n) => (
+                <p key={n.by} className="sub">
+                  “{n.text}” · {user(n.by).name.split(' ')[0]}, {n.size}
+                </p>
+              ))}
             </div>
           ) : (
             <div className="card note">

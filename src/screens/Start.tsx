@@ -61,13 +61,13 @@ export function Main() {
             {hyped.length} {hyped.length === 1 ? 'piece' : 'pieces'} you hyped {hyped.length === 1 ? 'is' : 'are'} in
           </h2>
           <div className="row">
-            {hyped.slice(0, 4).map((p) => (
+            {hyped.slice(0, 5).map((p) => (
               <GarmentTile key={p.id} g={garment(p.garment)} size="sm" />
             ))}
-            <p className="grow" style={{ fontSize: 12.5, fontWeight: 600, paddingLeft: 4 }}>
-              {num(seed.drop.totalPieces)} pieces · quantities stated · no restock
-            </p>
           </div>
+          <p style={{ fontSize: 12.5, fontWeight: 600, marginTop: 10 }}>
+            {num(seed.drop.totalPieces)} pieces · quantities stated · no restock
+          </p>
         </Link>
 
         <span className="label">Your loop</span>
