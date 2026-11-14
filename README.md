@@ -100,6 +100,7 @@ Vite, React and TypeScript, with React Router, a Zustand store saved to `localSt
 | `design/screenshots/` | A screenshot of every screen |
 | `docs/` | Product spec, screens, design system, data model, build plan, business case, sources |
 | `video/` | Narration script and captions for the walkthrough video |
+| `deck/` | The case deck (`Encore_Zara_Round1_v4.pptx` and PDF) and `build_deck.py`, which regenerates it |
 
 **Swapping in real product photos:** change a garment's `image` in `data/seed.json` to a photo URL (or a file under `public/`). Tiles use `object-fit: contain`, so the layout does not change.
 
