@@ -216,9 +216,9 @@ export function DropLive() {
         </div>
         {pieces.length === 0 && <p className="sub">Nothing in this filter. Hype pieces in the daily deck to see them here.</p>}
 
-        <div className="card note" style={{ background: 'var(--ink)', color: '#c9cdd6', borderColor: 'var(--ink)' }}>
+        <div className="card note">
           <Icon name="shield" size={18} />
-          <p style={{ color: '#c9cdd6' }}>
+          <p>
             Nothing here counts down or says “only 3 left”. The number you see is the number there is.
           </p>
         </div>
@@ -258,7 +258,7 @@ export function Piece() {
     <Screen tone="paper">
       <TopBar back="Drop" backTo={s.dropLive ? '/drop-live' : '/drop-home'} right={<KeyCounter short />} />
       <Body>
-        <div className="piecehero" style={{ background: p.lane === 'recut' ? '#0f1116' : g.tile }}>
+        <div className="piecehero">
           <img src={garmentSrc(g)} alt={g.name} />
           <span className="sticker ink">{p.number}</span>
           <Chip tone="lime">

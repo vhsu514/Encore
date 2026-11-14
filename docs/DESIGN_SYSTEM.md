@@ -1,6 +1,6 @@
 # Encore design system
 
-> This page describes the first design language (dark "ink" with lime), which the web app uses. The iOS app uses the second, "editorial" language described at the end of this page.
+> The web app and the iOS app both use the second, "editorial" design language described at the end of this page. The sections before it describe the first language (dark "ink" with lime) and are kept for reference; the component class names still apply.
 
 Tokens are in `design/tokens.json`. The working stylesheet the screens use is `design/encore.css`; port it to your styling system (Tailwind theme, CSS variables or styled components) rather than inventing new values.
 
@@ -55,7 +55,7 @@ No emoji as icons (simple stroke SVGs instead). No countdowns, gradient washes o
 
 `design/assets/*.svg` are placeholder flat illustrations, each shown on a soft tinted tile (lilac `#E4DBFF` skirt, sand `#EFE3CF` trench/knit, lime-tint `#EAF7B8` denim, grey `#D9DCE3` biker/coat). Model images as `garment.image` URLs so real product photos can replace them without layout changes.
 
-## Version 2: editorial (iOS app)
+## Version 2: editorial (web and iOS)
 
 The first design read as a generic dark-mode app. The second borrows from how fashion retail apps actually look: the interface is a quiet frame and the clothes carry the screen.
 
@@ -67,4 +67,4 @@ The first design read as a generic dark-mode app. The second borrows from how fa
 - **Native behaviour:** the system tab bar, navigation stack with the standard back swipe, sheets with detents, segmented controls, system switches, SF Symbols, haptics on confirm, and Reduce Motion respected.
 - **Photography:** garment tiles are 4:5 and fill with a product photo when one is supplied (see `ios/Encore/Photos/`).
 
-Tokens live in `ios/Encore/Design/Theme.swift`.
+Tokens live in `design/tokens.json`, `src/styles.css` and `ios/Encore/Design/Theme.swift`.

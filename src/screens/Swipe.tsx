@@ -31,7 +31,7 @@ function CardFace({ card, style, under, stamp, handlers }: {
 }) {
   const g = garment(card.garment);
   return (
-    <div className={`swipecard${under ? ' under' : ''}`} style={{ background: g.tile, ...style }} aria-hidden={under} {...handlers}>
+    <div className={`swipecard${under ? ' under' : ''}`} style={style} aria-hidden={under} {...handlers}>
       <img src={garmentSrc(g)} alt="" draggable={false} />
       <div className="top">
         <Chip tone="ink">{card.lane}</Chip>

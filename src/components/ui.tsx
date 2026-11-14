@@ -245,18 +245,17 @@ export function GarmentTile({
   size,
   tall,
   children,
-  dark,
 }: {
   g: Garment;
   size?: 'sm' | 'md';
   tall?: boolean;
   children?: ReactNode;
+  /** Kept for callers; every garment now sits on the same neutral tile. */
   dark?: boolean;
 }) {
   return (
     <div
       className={`garment${size ? ` ${size}` : ''}${tall ? ' tall' : ''}`}
-      style={{ background: dark ? '#0f1116' : g.tile }}
     >
       <img src={src(g.image)} alt={g.name} loading="lazy" />
       {children}
@@ -273,9 +272,8 @@ export const Stat = ({ n, l, tone, bare }: { n: ReactNode; l: string; tone?: 'li
   </div>
 );
 
-const AVATAR_BG = ['#C9B8FF', '#2CD4BD', '#F5C542', '#FF6B6B', '#D4FF3F'];
-export const Avatar = ({ initial, i = 0, size }: { initial: string; i?: number; size?: 'lg' | 'xs' }) => (
-  <span className={`avatar${size ? ` ${size}` : ''}`} style={{ background: AVATAR_BG[i % AVATAR_BG.length] }} aria-hidden="true">
+export const Avatar = ({ initial, size }: { initial: string; i?: number; size?: 'lg' | 'xs' }) => (
+  <span className={`avatar${size ? ` ${size}` : ''}`} aria-hidden="true">
     {initial}
   </span>
 );
